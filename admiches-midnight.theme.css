@@ -10,6 +10,7 @@
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
 
 @import url('https://refact0r.github.io/midnight-discord/midnight.css');
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);	
 
 /* customize things here */
 :root {
@@ -23,13 +24,13 @@
 	--idle-indicator: #f6c177; /* change to #f0b232 for default yellow */
 
 	/* accent colors */
-	--accent-1: #ebbcba; /* links */
-	--accent-2: #ebbcba; /* general unread/mention elements */
-	--accent-3: #ebbcba; /* accent buttons */
-	--accent-4: #ebbcba; /* accent buttons when hovered */
-	--accent-5: #ebbcba; /* accent buttons when clicked */
-	--mention: hsla(hsla(1, 54%, 83%, 0.859), 0.1); /* mentions & mention messages */
-	--mention-hover: hsla(hsl(2deg, 55%, 83%), 0.05); /* mentions & mention messages when hovered */
+	--accent-1: hsl(190, 70%, 60%); /* links */
+	--accent-2: hsl(190, 70%, 48%); /* general unread/mention elements */
+	--accent-3: hsl(190, 70%, 42%); /* accent buttons */
+	--accent-4: hsl(190, 70%, 36%); /* accent buttons when hovered */
+	--accent-5: hsl(190, 70%, 30%); /* accent buttons when clicked */
+	--mention: hsla(190, 80%, 52%, 0.1); /* mentions & mention messages */
+	--mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
 
 	/* text colors */
 	--text-0: var(--bg-4); /* text on colored elements */
@@ -42,15 +43,14 @@
 	/* background and dark colors */
 	--bg-1: rgb(38, 35, 58); /* dark buttons when clicked */
 	--bg-2: rgb(38, 35, 58); /* dark buttons */
-	--bg-3: rgb(31, 29, 46); /* spacing, secondary elements */
-	--bg-4: rgb(25, 23, 36); /* main background color */
+	--bg-3: rgb(25, 23, 36); /* spacing, secondary elements */
+	--bg-4: rgb(31, 29, 46); /* main background color */
 	--hover: rgba(160, 130, 120, 0.1); /* channels and buttons when hovered */
 	--active: rgba(160, 130, 120, 0.2); /* channels and buttons when clicked or selected */
 	--message-hover: hsla(0, 0%, 0%, 0.1); /* messages when hovered */
 
 	/* amount of spacing and padding */
 	--spacing: 12px;
-	--text-spotify: #9ccfd8;
 	--background-modifier-selected: #26233ab4;
 	--scrollbar-thin-thumb: #191724; 
     --scrollbar-thin-track: transparent; 
