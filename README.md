@@ -6,5 +6,5 @@ A Midnight discord theme with rounded chat and sidebars.
 
 # Install
 
-1. Download file 'adminches-midnight.theme.css'
-2. Put the file into your theme folder.
+<li>Download file 'adminches-midnight.theme.css' </li>
+<li>Put the file into your theme folder. </li>
