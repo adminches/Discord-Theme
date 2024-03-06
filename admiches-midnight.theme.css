@@ -1,16 +1,17 @@
 /**
- * @name midnight
+ * @name adminches (midnight)
  * @description A darkened discord theme.
  * @author refact0r
- * @version 1.6.2
- * @source https://github.com/refact0r/midnight-discord
+ * @version 1.0
+ * @based https://github.com/refact0r/midnight-discord
  * @authorId 508863359777505290
+ * @author @adminches
 */
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
 
 @import url('https://refact0r.github.io/midnight-discord/midnight.css');
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);	
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');	
 
 /* customize things here */
 :root {
@@ -53,9 +54,9 @@
 	--spacing: 12px;
 	--background-modifier-selected: #26233ab4;
 	--scrollbar-thin-thumb: #191724; 
-    --scrollbar-thin-track: transparent; 
-    --scrollbar-auto-thumb: #191724; 
-    --scrollbar-auto-track: transparent; 
+        --scrollbar-thin-track: transparent; 
+        --scrollbar-auto-thumb: #191724; 
+        --scrollbar-auto-track: transparent; 
 
 	/* animations */
 	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
